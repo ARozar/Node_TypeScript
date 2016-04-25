@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     typescript = require('gulp-typescript'),
-    del = require('del');
+    del = require('del'),
+    sourcemaps = require('gulp-sourcemaps');
 
 
 
@@ -17,14 +18,16 @@ var typescriptSourceFiles =
 
 gulp.task('compile', function () {
     gulp.src(typescriptSourceFiles)
+        .pipe(sourcemaps.init())
         .pipe(typescript(project))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('./dist'))
 });
 
-gulp.task('clean', function(){
-    return  del(['./dist']);
+gulp.task('clean', function () {
+    return del(['./dist']);
 });
 
-gulp.task('watch', function(){
-    gulp.watch(typescriptSourceFiles,['compile']);
+gulp.task('watch', function () {
+    gulp.watch(typescriptSourceFiles, ['compile']);
 });

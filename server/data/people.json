@@ -1,0 +1,58 @@
+[
+  {
+    "eyeColor": "brown",
+    "name": "Moon Nunez",
+    "gender": "male",
+    "company": "BEDDER",
+    "email": "moonnunez@bedder.com",
+    "phone": "+1 (876) 505-2898"
+  },
+  {
+    "eyeColor": "blue",
+    "name": "Mclean Travis",
+    "gender": "male",
+    "company": "STREZZO",
+    "email": "mcleantravis@strezzo.com",
+    "phone": "+1 (853) 409-2982"
+  },
+  {
+    "eyeColor": "brown",
+    "name": "Acosta Carlson",
+    "gender": "male",
+    "company": "COLAIRE",
+    "email": "acostacarlson@colaire.com",
+    "phone": "+1 (900) 493-2625"
+  },
+  {
+    "eyeColor": "brown",
+    "name": "Aguilar Swanson",
+    "gender": "male",
+    "company": "VANTAGE",
+    "email": "aguilarswanson@vantage.com",
+    "phone": "+1 (821) 520-3021"
+  },
+  {
+    "eyeColor": "blue",
+    "name": "Willa Hobbs",
+    "gender": "female",
+    "company": "DARWINIUM",
+    "email": "willahobbs@darwinium.com",
+    "phone": "+1 (991) 535-3409"
+  },
+  {
+    "eyeColor": "blue",
+    "name": "Estrada Carroll",
+    "gender": "male",
+    "company": "LUNCHPOD",
+    "email": "estradacarroll@lunchpod.com",
+    "phone": "+1 (830) 536-2009"
+  },
+  {
+    "eyeColor": "brown",
+    "name": "King Armstrong",
+    "gender": "male",
+    "company": "ILLUMITY",
+    "email": "kingarmstrong@illumity.com",
+    "phone": "+1 (865) 593-3541"
+  }
+]

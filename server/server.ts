@@ -8,7 +8,9 @@ app.use(bodyParser.json());
 import routes from './routes';
 routes(app);
 
+import { setRootPath } from './helpers';
 
+setRootPath(__dirname);
 
 var server = app.listen(3002, function () {
     console.log('Server running at http://127.0.0.1:3002/');
