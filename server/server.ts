@@ -9,7 +9,6 @@ import routes from './routes';
 routes(app);
 
 import { setRootPath } from './helpers';
-
 setRootPath(__dirname);
 
 var server = app.listen(3002, function () {
